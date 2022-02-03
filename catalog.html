@@ -18,7 +18,7 @@
             <a class="navigation-link" href="#">О седоне</a>
           </li>
           <li class="navigation-item">
-            <a class="navigation-link navigation-link-current" href="catalog.html">Гостиницы</a>
+            <a class="navigation-link navigation-link-current">Гостиницы</a>
           </li>
         </ul>
 
@@ -48,7 +48,7 @@
          <ul class="breadcrumbs">
             <li class="breadcrumbs-item">
                <a class="breadcrumbs-link" href="index.html">
-                  <div class="visually-hidden">Главная</div>
+                  <span class="visually-hidden">Главная</span>
                </a>
             </li>
             <li class="breadcrumbs-link">
@@ -135,7 +135,7 @@
                <b class="hotel-card-price">От 4000 ₽</b>
                <a class="more-info-button" href="#">Подробнее</a>
                <button class="favorites-button" type="button">В избранное</button>
-               <img class="hotel-rating-star" src="" alt="Четырёхзвёздочная гостиница.">
+               <span class="hotel-rating-star four-star-hotel"></span>
                <span class="hotel-rating-grade">Рейтинг: 8,5</span>
             </li>
             <li class="hotel-card">
@@ -147,7 +147,7 @@
                <b class="hotel-card-price">От 3000 ₽</b>
                <a class="more-button" href="#">Подробнее</a>
                <button class="favorites-button" type="button">В избранное</button>
-               <img class="hotel-rating-star" src="" alt="Трёхзвёздочная гостиница.">
+               <span class="hotel-rating-star three-star-hotel"></span>
                <span class="hotel-rating-grade">Рейтинг: 8,9</span>
             </li>
             <li class="hotel-card">
@@ -159,7 +159,7 @@
                <b class="hotel-card-price">От 2000 ₽</b>
                <a class="more-button" href="#">Подробнее</a>
                <button class="favorites-button" type="button">В избранное</button>
-               <img class="hotel-rating-star" src="" alt="Двухзвёздочная гостиница.">
+               <span class="hotel-rating-star two-star-hotel"></span>
                <span class="hotel-rating-grade">Рейтинг: 9,2</span>
             </li>
             <li class="hotel-card">
@@ -171,7 +171,7 @@
                <b class="hotel-card-price">От 3000 ₽</b>
                <a class="more-button" href="#">Подробнее</a>
                <button class="favorites-button" type="button">В избранное</button>
-               <img class="hotel-rating-star" src="" alt="Двухзвёздочная гостиница">
+               <span class="hotel-rating-star two-star-hotel"></span>
                <span class="hotel-rating-grade">Рейтинг: 9,2</span>
             </li>
          </ul>
@@ -192,14 +192,16 @@
                <a class="pagination-link" href="#">4</a>
             </li>
             <li class="pagination-item">
-               <button class="pagination-button pagination-more-page" type="button">...</button>
+               <a class="pagination-link pagination-more-page" href="#">...</a>
             </li>
             <li class="pagination-item">
                <a class="pagination-link pagination-last-page" href="#">10</a>
             </li>
          </ul>
          <div class="page-hotel-amount">
-            <label class="page-hotel-amount-title" for="hotel-amount">Гостиниц на странице:</label>
+            <label class="page-hotel-amount-title" for="hotel-amount">
+               Гостиниц на странице:
+            </label>
             <select id="hotel-amount" name="hotel-amount">
                <option value="4">4</option>
                <option value="6">6</option>
