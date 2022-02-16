@@ -1,0 +1,283 @@
+@font-face {
+  font-family: "PT Sans";
+  font-style: normal;
+  font-weight: 400;
+  src: url("../fonts/ptsans-400.woff2") format("woff2");
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "PT Sans";
+  font-style: normal;
+  font-weight: 700;
+  src: url("../fonts/ptsans-700.woff2") format("woff2");
+  font-display: swap;
+}
+
+body {
+  font-family: "PT Sans", "Arial", sans-serif;
+  font-size: 18px;
+  line-height: 21px;
+  color: #000000;
+  background-color: #F2F2F2;
+}
+
+a {
+  text-decoration: none;
+}
+
+/* Pages */
+
+.page-container {
+  background-color: #FFFFFF;
+  text-align: center;
+}
+
+.button {
+  font-family: inherit;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 20px;
+  color: #FFFFFF;
+  text-transform: uppercase;
+  background-color: #83B3D3;
+  border: none;
+  border-radius: 4px;
+}
+
+.brown-button {
+  background-color: #756257;
+}
+
+.big-button {
+  font-size: 20px;
+  line-height: 36px;
+}
+
+.blue-big-button {
+  font-size: 20px;
+  line-height: 26px;
+}
+
+.newsletter-subscribe-button {
+  border-radius: 0 4px 4px 0;
+}
+
+.favorites-added-button {
+  background-color: #7DB54F;
+}
+
+.button-reset {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 24px;
+  text-transform: none;
+  background-color: transparent;
+}
+
+.navigation-link {
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 26px;
+  color: #000000;
+}
+
+/* Index-main */
+
+.index-background {
+  background-image: url("../images/index-background.jpg");
+  background-repeat: no-repeat;
+  background-color: #396E98;
+  background-size: 100% auto;
+}
+
+.main-title {
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 36px;
+  text-transform: uppercase;
+}
+
+/* Reasons */
+
+.reasons-title {
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 36px;
+}
+
+/* List */
+
+.reasons-list {
+  background-color: #83B3D3;
+}
+
+.reasons-item-title {
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 28px;
+  text-transform: uppercase;
+}
+
+.reasons-item-number,
+.reasons-item-discription {
+  color: #333333;
+}
+
+/* Hotel search */
+
+.hotel-search-title {
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 36px;
+  text-transform: uppercase;
+}
+
+.hotel-search-booking {
+  font-size: 22px;
+  line-height: 26px;
+}
+
+.hotel-search-button {
+  font-size: 20px;
+  line-height: 36px;
+}
+
+/* Footer */
+
+/*Newsletter*/
+
+.newsletter {
+  color: #FFFFFF;
+  background-image: url("../images/newsletter_background.jpg");
+  background-repeat: no-repeat;
+  background-color: #83B3D3;
+  background-size: 100% auto;
+}
+
+.newsletter-title {
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 36px;
+  text-transform: uppercase;
+}
+
+.newsletter-discription {
+  font-size: 22px;
+  line-height: 26px;
+}
+
+.field {
+  font-family: inherit;
+  font-size: 18px;
+  line-height: 26px;
+  background-color: #F2F2F2;
+  border: none;
+  border-radius: 4px 0 0 4px;
+}
+
+/* Phone */
+
+.footer-contacts-phone {
+  font-style: normal;
+  font-size: 40px;
+  line-height: 40px;
+  color: #000000;
+}
+
+/* Catalog Page */
+
+/* Catalog-header*/
+
+.catalog-header {
+  color: #FFFFFF;
+  background-image: url("../images/catalog_background.jpg");
+  background-repeat: no-repeat;
+  background-color: #68A2CA;
+  background-size: 100% auto;
+}
+
+.catalog-header-title {
+  font-weight: 700;
+  font-size: 60px;
+  line-height: 78px;
+  text-align: start;
+}
+
+.breadcrumbs-link {
+  font-size: 16px;
+  line-height: 21px;
+  color: #FFFFFF;
+}
+
+/* Hotels-filter */
+
+.catalog-filter-title {
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 26px;
+}
+
+.catalog-filter-item {
+  font-size: 18px;
+  line-height: 23px;
+}
+
+.found-hotel {
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 39px;
+  text-transform: uppercase;
+}
+
+/* Hotels-sorting */
+
+.select-control {
+  font-family: inherit;
+  font-size: 18px;
+  line-height: 23px;
+}
+
+/* Hotels-cards */
+
+.hotel-card-title {
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 31px;
+  color: #000000;
+}
+
+.hotel-card-filter,
+.hotel-card-price  {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 23px;
+}
+
+.hotel-rating-grade {
+  font-size: 16px;
+  line-height: 21px;
+  background-color: #F2F2F2;
+}
+
+/* Pagination */
+
+.pagination-current {
+  color: #000000;
+  background-color: #F2F2F2;
+}
+
+.page-hotel-amount,
+.hotel-card-amount {
+  font-family: inherit;
+  font-size: 18px;
+  line-height: 23px;
+}
+
+/* Catalog-newsletter */
+
+.catalog-newsletter {
+  color:#000000;
+  background-image: none;
+  background-color: inherit;
+}
