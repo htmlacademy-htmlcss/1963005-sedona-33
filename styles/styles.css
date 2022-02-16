@@ -14,12 +14,21 @@
   font-display: swap;
 }
 
+html {
+  height: 100%;
+}
+
 body {
+  display: flex;
+  flex-direction: column;
+  min-height: 100%;
   font-family: "PT Sans", "Arial", sans-serif;
   font-size: 18px;
   line-height: 21px;
   color: #000000;
   background-color: #F2F2F2;
+  margin: 0;
+  padding: 0;
 }
 
 a {
@@ -29,8 +38,22 @@ a {
 /* Pages */
 
 .page-container {
+  width: 1200px;
   background-color: #FFFFFF;
   text-align: center;
+  margin: 0 auto;
+}
+
+.page-header {
+  display: flex;
+  flex-direction: row;
+  width: 1060px;
+  height: 66px;
+  margin: 0 auto;
+}
+
+.main-container {
+  flex-grow: 1;
 }
 
 .button {
@@ -75,6 +98,23 @@ a {
   background-color: transparent;
 }
 
+.navigation {
+  display: flex;
+  width: 920px;
+  margin: 0 auto;
+}
+
+.navigation-list {
+  margin: 0;
+  padding: 0;
+  width: 345px;
+}
+
+.navigation-user {
+  margin-left: auto;
+  max-width: 264px;
+}
+
 .navigation-link {
   font-weight: 700;
   font-size: 20px;
@@ -109,7 +149,25 @@ a {
 /* List */
 
 .reasons-list {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
   background-color: #83B3D3;
+  margin: 0;
+  padding: 0;
+}
+
+.reasons-item {
+  width: 400px;
+  height: 384px;
+  margin: 0;
+  padding: 0;
+}
+
+.wide-reasons-item {
+  display: flex;
+  flex-direction: row;
+  width: 1200px;
 }
 
 .reasons-item-title {
@@ -277,7 +335,7 @@ a {
 /* Catalog-newsletter */
 
 .catalog-newsletter {
-  color:#000000;
+  color: #000000;
   background-image: none;
   background-color: inherit;
 }
