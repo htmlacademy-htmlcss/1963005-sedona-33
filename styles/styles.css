@@ -35,26 +35,7 @@ a {
   text-decoration: none;
 }
 
-/* Pages */
-
-.page-container {
-  width: 1200px;
-  background-color: #FFFFFF;
-  text-align: center;
-  margin: 0 auto;
-}
-
-.page-header {
-  display: flex;
-  flex-direction: row;
-  width: 1060px;
-  height: 66px;
-  margin: 0 auto;
-}
-
-.main-container {
-  flex-grow: 1;
-}
+/* Buttons */
 
 .button {
   font-family: inherit;
@@ -86,16 +67,35 @@ a {
   border-radius: 0 4px 4px 0;
 }
 
-.favorites-added-button {
-  background-color: #7DB54F;
-}
-
 .button-reset {
   font-weight: 400;
   font-size: 18px;
   line-height: 24px;
   text-transform: none;
   background-color: transparent;
+}
+
+.favorites-added-button {
+  background-color: #7DB54F;
+}
+
+/* Pages */
+
+.page-container {
+  width: 1200px;
+  background-color: #FFFFFF;
+  text-align: center;
+  margin: 0 auto;
+}
+
+.page-header {
+  display: flex;
+  width: 1060px;
+  margin: 0 auto;
+}
+
+.main-container {
+  flex-grow: 1;
 }
 
 .navigation {
@@ -159,9 +159,7 @@ a {
 
 .reasons-item {
   width: 400px;
-  height: 384px;
   margin: 0;
-  padding: 0;
 }
 
 .wide-reasons-item {
@@ -234,13 +232,34 @@ a {
   border-radius: 4px 0 0 4px;
 }
 
-/* Phone */
+/* Footer-social */
+
+.footer-social-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-grow: 1;
+  margin: 0 auto;
+  padding: 40px 72px 30px;
+}
+
+.footer-social {
+  width: 107px;
+  margin: 0;
+  margin-right: 61px;
+}
 
 .footer-contacts-phone {
+  display: block;
   font-style: normal;
   font-size: 40px;
   line-height: 40px;
   color: #000000;
+  width: 720px;
+}
+
+.academy-logo {
+  margin-left: auto;
 }
 
 /* Catalog Page */
@@ -270,10 +289,31 @@ a {
 
 /* Hotels-filter */
 
+.catalog-filter {
+  display: flex;
+}
+
+.infrastructure-filter {
+  width: 150px;
+  margin-left: 71px;
+  margin-right: 67px;
+  padding: 0;
+}
+
+.housing-filter {
+  width: 145px;
+  margin-right: 167px;
+  padding: 0;
+}
+
 .catalog-filter-title {
   font-weight: 700;
   font-size: 20px;
   line-height: 26px;
+}
+
+.catalog-filter-list {
+  text-align: left;
 }
 
 .catalog-filter-item {
@@ -281,14 +321,24 @@ a {
   line-height: 23px;
 }
 
-.found-hotel {
-  font-weight: 700;
-  font-size: 30px;
-  line-height: 39px;
-  text-transform: uppercase;
+/* Hotels-sorting */
+
+.hotels-sorting {
+  display: flex;
+  margin: 0 auto;
+  padding: 44px 72px 53px 71px;
 }
 
-/* Hotels-sorting */
+.found-hotel {
+  display: block;
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 38px;
+  text-transform: uppercase;
+  margin-right: 191px;
+  padding: 0;
+  width: 338px;
+}
 
 .select-control {
   font-family: inherit;
