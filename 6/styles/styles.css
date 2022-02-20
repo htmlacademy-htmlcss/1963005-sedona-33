@@ -1,0 +1,391 @@
+@font-face {
+  font-family: "PT Sans";
+  font-style: normal;
+  font-weight: 400;
+  src: url("../fonts/ptsans-400.woff2") format("woff2");
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "PT Sans";
+  font-style: normal;
+  font-weight: 700;
+  src: url("../fonts/ptsans-700.woff2") format("woff2");
+  font-display: swap;
+}
+
+html {
+  height: 100%;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  min-height: 100%;
+  font-family: "PT Sans", "Arial", sans-serif;
+  font-size: 18px;
+  line-height: 21px;
+  color: #000000;
+  background-color: #F2F2F2;
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+/* Buttons */
+
+.button {
+  font-family: inherit;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 20px;
+  color: #FFFFFF;
+  text-transform: uppercase;
+  background-color: #83B3D3;
+  border: none;
+  border-radius: 4px;
+}
+
+.brown-button {
+  background-color: #756257;
+}
+
+.big-button {
+  font-size: 20px;
+  line-height: 36px;
+}
+
+.blue-big-button {
+  font-size: 20px;
+  line-height: 26px;
+}
+
+.newsletter-subscribe-button {
+  border-radius: 0 4px 4px 0;
+}
+
+.button-reset {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 24px;
+  text-transform: none;
+  background-color: transparent;
+}
+
+.favorites-added-button {
+  background-color: #7DB54F;
+}
+
+/* Pages */
+
+.page-container {
+  width: 1200px;
+  background-color: #FFFFFF;
+  text-align: center;
+  margin: 0 auto;
+}
+
+.page-header {
+  display: flex;
+  width: 1060px;
+  margin: 0 auto;
+}
+
+.main-container {
+  flex-grow: 1;
+}
+
+.navigation {
+  display: flex;
+  width: 920px;
+  margin: 0 auto;
+}
+
+.navigation-list {
+  margin: 0;
+  padding: 0;
+  width: 345px;
+}
+
+.navigation-user {
+  margin-left: auto;
+  max-width: 264px;
+}
+
+.navigation-link {
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 26px;
+  color: #000000;
+}
+
+/* Index-main */
+
+.index-background {
+  background-image: url("../images/index-background.jpg");
+  background-repeat: no-repeat;
+  background-color: #396E98;
+  background-size: 100% auto;
+}
+
+.main-title {
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 36px;
+  text-transform: uppercase;
+}
+
+/* Reasons */
+
+.reasons-title {
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 36px;
+}
+
+/* List */
+
+.reasons-list {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  background-color: #83B3D3;
+  margin: 0;
+  padding: 0;
+}
+
+.reasons-item {
+  width: 400px;
+  margin: 0;
+}
+
+.wide-reasons-item {
+  display: flex;
+  flex-direction: row;
+  width: 1200px;
+}
+
+.reasons-item-title {
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 28px;
+  text-transform: uppercase;
+}
+
+.reasons-item-number,
+.reasons-item-discription {
+  color: #333333;
+}
+
+/* Hotel search */
+
+.hotel-search-title {
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 36px;
+  text-transform: uppercase;
+}
+
+.hotel-search-booking {
+  font-size: 22px;
+  line-height: 26px;
+}
+
+.hotel-search-button {
+  font-size: 20px;
+  line-height: 36px;
+}
+
+/* Footer */
+
+/*Newsletter*/
+
+.newsletter {
+  color: #FFFFFF;
+  background-image: url("../images/newsletter_background.jpg");
+  background-repeat: no-repeat;
+  background-color: #83B3D3;
+  background-size: 100% auto;
+}
+
+.newsletter-title {
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 36px;
+  text-transform: uppercase;
+}
+
+.newsletter-discription {
+  font-size: 22px;
+  line-height: 26px;
+}
+
+.field {
+  font-family: inherit;
+  font-size: 18px;
+  line-height: 26px;
+  background-color: #F2F2F2;
+  border: none;
+  border-radius: 4px 0 0 4px;
+}
+
+/* Footer-social */
+
+.footer-social-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-grow: 1;
+  margin: 0 auto;
+  padding: 40px 72px 30px;
+}
+
+.footer-social {
+  width: 107px;
+  margin: 0;
+  margin-right: 61px;
+}
+
+.footer-contacts-phone {
+  display: block;
+  font-style: normal;
+  font-size: 40px;
+  line-height: 40px;
+  color: #000000;
+  width: 720px;
+}
+
+.academy-logo {
+  margin-left: auto;
+}
+
+/* Catalog Page */
+
+/* Catalog-header*/
+
+.catalog-header {
+  color: #FFFFFF;
+  background-image: url("../images/catalog_background.jpg");
+  background-repeat: no-repeat;
+  background-color: #68A2CA;
+  background-size: 100% auto;
+}
+
+.catalog-header-title {
+  font-weight: 700;
+  font-size: 60px;
+  line-height: 78px;
+  text-align: start;
+}
+
+.breadcrumbs-link {
+  font-size: 16px;
+  line-height: 21px;
+  color: #FFFFFF;
+}
+
+/* Hotels-filter */
+
+.catalog-filter {
+  display: flex;
+}
+
+.infrastructure-filter {
+  width: 150px;
+  margin-left: 71px;
+  margin-right: 67px;
+  padding: 0;
+}
+
+.housing-filter {
+  width: 145px;
+  margin-right: 167px;
+  padding: 0;
+}
+
+.catalog-filter-title {
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 26px;
+}
+
+.catalog-filter-list {
+  text-align: left;
+}
+
+.catalog-filter-item {
+  font-size: 18px;
+  line-height: 23px;
+}
+
+/* Hotels-sorting */
+
+.hotels-sorting {
+  display: flex;
+  margin: 0 auto;
+  padding: 44px 72px 53px 71px;
+}
+
+.found-hotel {
+  display: block;
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 38px;
+  text-transform: uppercase;
+  margin-right: 191px;
+  padding: 0;
+  width: 338px;
+}
+
+.select-control {
+  font-family: inherit;
+  font-size: 18px;
+  line-height: 23px;
+}
+
+/* Hotels-cards */
+
+.hotel-card-title {
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 31px;
+  color: #000000;
+}
+
+.hotel-card-filter,
+.hotel-card-price  {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 23px;
+}
+
+.hotel-rating-grade {
+  font-size: 16px;
+  line-height: 21px;
+  background-color: #F2F2F2;
+}
+
+/* Pagination */
+
+.pagination-current {
+  color: #000000;
+  background-color: #F2F2F2;
+}
+
+.page-hotel-amount,
+.hotel-card-amount {
+  font-family: inherit;
+  font-size: 18px;
+  line-height: 23px;
+}
+
+/* Catalog-newsletter */
+
+.catalog-newsletter {
+  color: #000000;
+  background-image: none;
+  background-color: inherit;
+}
