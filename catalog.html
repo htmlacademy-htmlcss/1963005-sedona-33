@@ -127,8 +127,7 @@
             <option value="popular">Сначала популярные</option>
           </select>
 
-          <div class="view-mode-card" hidden>
-          <!-- Временно скрыл, чтобы не мешался-->
+          <div class="view-mode-card">
             <a class="view-mode-button current-mode-button" href="#">
               <span class="visually-hidden">Показать карточки гостиниц</span>
             </a>
@@ -196,37 +195,38 @@
 
         <button class="button more-card-button blue-big-button" type="button">Загрузить ещё</button>
 
-        <ul class="pagination">
-          <li class="pagination-item">
-            <a class="button pagination-current blue-big-button">1</a>
-          </li>
-          <li class="pagination-item">
-            <a class="button blue-big-button" href="#">2</a>
-          </li>
-          <li class="pagination-item">
-            <a class="button blue-big-button" href="#">3</a>
-          </li>
-          <li class="pagination-item">
-            <a class="button blue-big-button" href="#">4</a>
-          </li>
-          <li class="pagination-item">
-            <a class="button pagination-more-page blue-big-button" href="#">...</a>
-          </li>
-          <li class="pagination-item">
-            <a class="button pagination-last-page blue-big-button" href="#">10</a>
-          </li>
-        </ul>
-        <div class="page-hotel-amount">
-          <label class="page-hotel-amount-title" for="hotel-amount">
-            Гостиниц на странице:
-          </label>
-          <select class="hotel-card-amount" id="hotel-amount" name="hotel-amount">
-            <option value="4">4</option>
-            <option value="6">6</option>
-            <option value="9">9</option>
-          </select>
+        <div class="pagination-container">
+          <ul class="pagination">
+            <li class="pagination-item">
+              <a class="button pagination-link pagination-current blue-big-button">1</a>
+            </li>
+            <li class="pagination-item">
+              <a class="button pagination-link blue-big-button" href="#">2</a>
+            </li>
+            <li class="pagination-item">
+              <a class="button pagination-link blue-big-button" href="#">3</a>
+            </li>
+            <li class="pagination-item">
+              <a class="button pagination-link blue-big-button" href="#">4</a>
+            </li>
+            <li class="pagination-item">
+              <a class="button pagination-link pagination-more-page blue-big-button" href="#">...</a>
+            </li>
+            <li class="pagination-item">
+              <a class="button pagination-link pagination-last-page blue-big-button" href="#">10</a>
+            </li>
+          </ul>
+          <div class="page-hotel-amount">
+            <label class="page-hotel-amount-title" for="hotel-amount">
+              Гостиниц на странице:
+            </label>
+            <select class="hotel-card-amount" id="hotel-amount" name="hotel-amount">
+              <option value="4">4</option>
+              <option value="6">6</option>
+              <option value="9">9</option>
+            </select>
+          </div>
         </div>
-
       </main>
 
       <footer class="page-footer">
@@ -246,7 +246,7 @@
         <div class="footer-social-container">
           <section class="footer-social">
             <h2 class="visually-hidden">Наши соц.сети</h2>
-            <ul class="footer-socilal-list">
+            <ul class="footer-social-list">
               <li class="footer-social-item">
                 <a class="footer-social-button" href="https://twitter.com/htmlacademy_ru">
                   <span class="visually-hidden">Твиттер</span>
