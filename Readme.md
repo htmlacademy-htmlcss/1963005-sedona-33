@@ -1,7 +1,7 @@
 # Личный проект «Седона»
 
 - Студент: [Александр Силантьев](https://up.htmlacademy.ru/htmlcss/33/user/1963005).
-- Наставник: `HTML MASTER ACADEMY`.
+- Наставник: `HTML TRUE-MASTER ACADEMY`.
 
 ---
 
