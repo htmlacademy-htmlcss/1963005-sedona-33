@@ -68,6 +68,10 @@ a {
 
 .brown-button {
   background-color: #756257;
+  padding: 10px;
+}
+.brown-button:hover {
+  background-color: #59483e;
 }
 
 .big-button {
