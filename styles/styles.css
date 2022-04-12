@@ -643,7 +643,12 @@ a {
   color: rgba(117, 98, 87, 0.3)
 }
 
+.academy-logo {
+  width: 160px;
+}
+
 .academy-logo-link {
+  height: 70px;
   display: block;
 }
 
@@ -709,20 +714,22 @@ a {
   content: none;
 }
 
+.breadcrumbs-link {
+  display: block;
+  padding: 3px 8px;
+}
+
 .breadcrumbs-link.icon-link {
   padding: 6px 8px 9px;
 }
 
-.breadcrumbs-link {
-  padding: 3px 8px;
+.breadcrumbs-link.icon-link {
+  height: 12px;
+  margin-left: -5px;
 }
 
 .breadcrumbs-icon {
   fill: #FFFFFF;
-}
-
-.breadcrumbs-link.icon-link {
-  margin-left: -5px;
 }
 
 .breadcrumbs-link:focus {
@@ -852,7 +859,6 @@ a {
   margin-right: 81px;
   width: 287px;
 }
-
 
 .range-scale {
   position: relative;
@@ -1047,17 +1053,33 @@ a {
   width: 338px;
 }
 
-.select-control {
+.select {
+  position: relative;
+  display: flex;
+  align-items: center;
+  margin-right: auto;
+}
+
+.sorting-type {
+  width: 287px; 
+}
+
+.select-control,
+.hotel-card-amount {
   box-sizing: border-box;
   font-family: inherit;
   font-size: 18px;
   line-height: 23px;
-  width: 287px;
+  background-image: url("../images/icons/dropdown.svg");
+  background-repeat: no-repeat;
+  background-position: right 21px center;
+  appearance: none;
   outline: 2px solid #E6E6E6;
   outline-offset: -2px;
   border-radius: 4px;
   color: #333333;
-  padding: 12px 0 13px 19px;
+  width: 100%;
+  padding: 12px 54px 13px 19px;
 }
 
 .select-control:focus,
@@ -1150,13 +1172,13 @@ a {
 .hotel-card-buttons,
 .hotel-card-rate {
   display: flex;
-  justify-content: space-between;
   align-items: center;
   margin-bottom: 16px;
 }
 
 .hotel-card-rate {
   margin-bottom: 0;
+  justify-content: space-between;
 }
 
 .hotel-card-filter,
@@ -1166,7 +1188,15 @@ a {
   font-size: 18px;
   line-height: 23px;
   text-align: left;
-  width: 137px;
+  width: 133px;
+}
+
+.hotel-card-filter {
+  margin-right: 25px;
+}
+
+.hotel-card-price {
+  width: 141px;
 }
 
 .more-info-button,
@@ -1176,6 +1206,10 @@ a {
   width: 133px;
   padding-top: 9px;
   padding-bottom:7px;
+}
+
+.more-info-button {
+  margin-right: 26px;
 }
 
 .favorites-button,
@@ -1240,6 +1274,8 @@ a {
 }
 
 .more-card-button-container {
+  margin-left: 72px;
+  margin-right: 72px;
   border-top: 1px solid #E6E6E6;
   border-bottom: 1px solid #E6E6E6;
 }
@@ -1297,17 +1333,20 @@ a {
   line-height: 23px;
 }
 
+.page-hotel-amount {
+  display: flex;
+  align-items: center;
+}
+
 .page-hotel-amount-title {
   margin-right: 51px;
 }
 
 .hotel-card-amount {
   width: 160px;
-  padding: 13px 0 12px 17px;
+  padding: 13px 54px 12px 17px;
   border: none;
-  outline: 2px solid #E6E6E6;
-  outline-offset: -2px;
-  border-radius: 4px;
+
 }
 
 .hotel-card-amount:focus,

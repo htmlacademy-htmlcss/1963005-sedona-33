@@ -172,11 +172,13 @@
 
         <section class="hotels-sorting">
           <h3 class="found-hotel">Найдено гостиниц: 38</h3>
-          <select class="select-control" aria-label="Сортировка">
-            <option value="cheap">Сначала дешёвые</option>
-            <option value="expensive">Сначала дорогие</option>
-            <option value="popular">Сначала популярные</option>
-          </select>
+          <div class="select sorting-type">
+            <select class="select-control" aria-label="Сортировка">
+              <option value="cheap">Сначала дешёвые</option>
+              <option value="expensive">Сначала дорогие</option>
+              <option value="popular">Сначала популярные</option>
+            </select>
+          </div>
 
           <div class="view-mode-card">
             <a class="view-mode-button current-mode-button" href="#" type="button">
@@ -306,11 +308,13 @@
             <label class="page-hotel-amount-title" for="hotel-amount">
               Гостиниц на странице:
             </label>
-            <select class="hotel-card-amount" id="hotel-amount" name="hotel-amount">
-              <option value="4">4</option>
-              <option value="6">6</option>
-              <option value="9">9</option>
-            </select>
+            <div class="select card-amount">
+              <select class="hotel-card-amount" id="hotel-amount" name="hotel-amount">
+                <option value="4">4</option>
+                <option value="6">6</option>
+                <option value="9">9</option>
+              </select>
+            </div>
           </div>
         </div>
       </main>
